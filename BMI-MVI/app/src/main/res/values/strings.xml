@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="main_title">BMI Calculator</string>
+    <string name="main_subtitle">Check your body mass index in seconds</string>
+    <string name="height_label">Height (cm)</string>
+    <string name="height_hint">Enter height</string>
+    <string name="height_suffix">cm</string>
+    <string name="weight_label">Weight (kg)</string>
+    <string name="weight_hint">Enter weight</string>
+    <string name="weight_suffix">kg</string>
+    <string name="age_label">Age</string>
+    <string name="age_hint">Enter age</string>
+    <string name="gender_label">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="calculate">Calculate BMI</string>
+    <string name="about_button">About BMI</string>
+    <string name="about_message">Body mass index (BMI) is calculated as weight in kilograms divided by height in metres squared. For adults, this app uses the Asian BMI ranges introduced in the assignment. For ages 6–18, it uses age- and gender-specific BMI charts. BMI is a screening measure and is not a medical diagnosis.</string>
+    <string name="input_required">Please enter both height and weight.</string>
+    <string name="input_positive">Height and weight must be greater than zero.</string>
+    <string name="input_invalid">Please enter valid numbers.</string>
+    <string name="age_invalid">Please enter an age from 6 to 120. The child chart covers ages 6-18.</string>
+    <string name="gender_required">Please select a gender.</string>
+    <string name="report_title">Your BMI Report</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="bmi_placeholder">--</string>
+    <string name="category_severely_underweight">Severely Underweight</string>
+    <string name="category_underweight">Underweight</string>
+    <string name="category_acceptable">Acceptable Weight</string>
+    <string name="category_overweight">Overweight</string>
+    <string name="category_obese">Obese</string>
+    <string name="category_severely_overweight">Severely Overweight</string>
+    <string name="advice_severely_underweight">The BMI is at or below the 3rd percentile for this age and gender. Please consult a healthcare professional for an individual assessment.</string>
+    <string name="advice_underweight">The BMI is below the recommended range. Aim for balanced nutrition and seek professional advice if concerned.</string>
+    <string name="advice_acceptable">The BMI is within the acceptable range. Keep up healthy eating and regular physical activity.</string>
+    <string name="advice_overweight">The BMI is above the recommended range. Consider balanced meals and regular physical activity.</string>
+    <string name="advice_obese">The adult BMI is 25 or above. Consider discussing healthy weight goals with a healthcare professional.</string>
+    <string name="advice_severely_overweight">The BMI is at or above the 97th percentile for this age and gender. Please consult a healthcare professional for an individual assessment.</string>
+    <string name="basis_adult">Adult BMI standard (age 19+)</string>
+    <string name="basis_child">Child BMI-for-age chart (age and gender adjusted)</string>
+    <string name="health_warning">Health warning — professional assessment recommended</string>
+    <string name="bmi_formula">BMI = weight (kg) / height² (m)</string>
+    <!-- 中文 · 报告页按顺序传入年龄和性别。翻译时保留占位符下标和类型，译文中可以调整词序。
+         EN · The report supplies age and gender in that order. Keep argument indices and types when translating, even if the word order changes. -->
+    <string name="profile_summary">%1$d years - %2$s</string>
+    <string name="calculate_again">Calculate again</string>
+    <string name="menu_wiki">BMI Wiki</string>
+    <string name="menu_exit">Exit</string>
+    <string name="bmi_wiki_url" translatable="false">https://en.wikipedia.org/wiki/Body_mass_index</string>
+    <string name="browser_unavailable">No browser is available to open this page.</string>
+    <string name="bmi_logo_description">BMI logo. Long press for About BMI and BMI Wiki.</string>
+</resources>

@@ -1,0 +1,43 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    // 中文 · namespace 决定生成的 R 类所在包，applicationId 决定设备上的安装身份。
+    // EN · The namespace determines the package of the generated R class. The application ID identifies the installed app.
+    namespace 'com.example.mybmicanlandar'
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.mybmicanlandar.mvi"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0-MVI"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+// 中文 · testImplementation 供 JVM 单元测试使用；androidTestImplementation 供在设备或模拟器上运行的测试使用。
+// EN · testImplementation is for local JVM tests. androidTestImplementation is for tests run on a device or emulator.
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}

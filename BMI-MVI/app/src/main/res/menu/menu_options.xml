@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 中文 · 工具栏 About 可以在空间足够时直接显示；Wiki 和 Exit 收进溢出菜单。点击由 selected() 统一分派。
+     EN · About can appear on the toolbar when space permits. Wiki and Exit go into the overflow. The selected() handler dispatches each click. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_about" android:title="@string/about_button" android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_wiki" android:title="@string/menu_wiki" android:showAsAction="never" />
+    <item android:id="@+id/menu_exit" android:title="@string/menu_exit" android:showAsAction="never" />
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 中文 · NoActionBar 主题把顶部空间留给这个原生 Toolbar。它的 ID 与主页 setActionBar() 使用的 ID 对应。
+     EN · The NoActionBar theme leaves room for this framework Toolbar. Its ID matches the one used by setActionBar() on the main screen. -->
+<Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@color/blue"
+    android:elevation="4dp"
+    android:theme="@android:style/ThemeOverlay.Material.Dark.ActionBar"
+    android:popupTheme="@android:style/ThemeOverlay.Material.Light"
+    android:title="@string/app_name" />

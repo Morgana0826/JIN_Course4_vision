@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navy">#15233C</color>
+    <color name="blue">#3569E8</color>
+    <color name="blue_dark">#234DB7</color>
+    <color name="blue_soft">#EAF0FF</color>
+    <color name="surface">#FFFDF9</color>
+    <color name="surface_alt">#F4F6FA</color>
+    <color name="text_secondary">#637083</color>
+    <color name="thin">#E59A32</color>
+    <color name="fit">#2FA36B</color>
+    <color name="fat">#D95757</color>
+    <color name="overweight">#E57C22</color>
+    <color name="warning">#B3261E</color>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 中文 · 长按主页图标时加载。与工具栏共用项目 ID，因此同一操作可复用相同的处理逻辑。
+     EN · Inflated on a long press of the main icon. Shared item IDs reuse the same handlers as the toolbar. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_about" android:title="@string/about_button" />
+    <item android:id="@+id/menu_wiki" android:title="@string/menu_wiki" />
+</menu>

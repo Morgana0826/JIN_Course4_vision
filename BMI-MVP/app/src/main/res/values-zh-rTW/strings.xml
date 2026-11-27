@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 中文 · 繁体中文（台湾）资源覆盖同名默认项，布局与 Kotlin 仍引用同一个 R.string ID。
+         EN · Traditional Chinese (Taiwan) overrides the matching defaults while layouts and Kotlin keep the same R.string IDs. -->
+    <string name="app_name">BMI 計算器</string>
+    <string name="main_title">BMI 計算器</string>
+    <string name="main_subtitle">快速了解你的身體質量指數</string>
+    <string name="height_label">身高（厘米）</string>
+    <string name="height_hint">請輸入身高</string>
+    <string name="height_suffix">厘米</string>
+    <string name="weight_label">體重（公斤）</string>
+    <string name="weight_hint">請輸入體重</string>
+    <string name="weight_suffix">公斤</string>
+    <string name="age_label">年齡</string>
+    <string name="age_hint">請輸入年齡</string>
+    <string name="gender_label">性別</string>
+    <string name="gender_male">男</string>
+    <string name="gender_female">女</string>
+    <string name="calculate">計算 BMI</string>
+    <string name="about_button">關於 BMI</string>
+    <string name="about_message">身體質量指數（BMI）等於體重（公斤）除以身高（米）的平方。成人採用作業中介紹的亞洲 BMI 分類標準；6–18 歲使用按年齡和性別劃分的兒童 BMI 圖表。BMI 是篩查指標，不能替代醫學診斷。</string>
+    <string name="input_required">請輸入身高和體重。</string>
+    <string name="input_positive">身高和體重必須大於零。</string>
+    <string name="input_invalid">請輸入有效的數字。</string>
+    <string name="age_invalid">請輸入 6–120 歲的年齡。兒童圖表適用於 6–18 歲。</string>
+    <string name="gender_required">請選擇性別。</string>
+    <string name="report_title">你的 BMI 報告</string>
+    <string name="your_bmi">你的 BMI</string>
+    <string name="bmi_placeholder">--</string>
+    <string name="category_severely_underweight">嚴重偏瘦</string>
+    <string name="category_underweight">偏瘦</string>
+    <string name="category_acceptable">體重正常</string>
+    <string name="category_overweight">超重</string>
+    <string name="category_obese">肥胖</string>
+    <string name="category_severely_overweight">嚴重超重</string>
+    <string name="advice_severely_underweight">BMI 處於或低於同年齡、同性別的第 3 百分位。請諮詢醫療專業人員，進行個別評估。</string>
+    <string name="advice_underweight">BMI 低於建議範圍。請注意均衡營養，如有疑慮，請諮詢專業人員。</string>
+    <string name="advice_acceptable">BMI 在正常範圍內。請保持健康飲食和規律運動。</string>
+    <string name="advice_overweight">BMI 高於建議範圍。請注意均衡飲食和規律運動。</string>
+    <string name="advice_obese">成人 BMI 達到或超過 25。建議與醫療專業人員討論健康體重目標。</string>
+    <string name="advice_severely_overweight">BMI 處於或高於同年齡、同性別的第 97 百分位。請諮詢醫療專業人員，進行個別評估。</string>
+    <string name="basis_adult">成人 BMI 標準（19 歲及以上）</string>
+    <string name="basis_child">兒童 BMI 圖表（按年齡和性別）</string>
+    <string name="health_warning">健康提醒：建議接受專業評估</string>
+    <string name="bmi_formula">BMI = 體重（公斤）/ 身高²（米）</string>
+    <string name="profile_summary">%1$d 歲 · %2$s</string>
+    <string name="calculate_again">重新計算</string>
+    <string name="menu_wiki">BMI 維基</string>
+    <string name="menu_exit">離開</string>
+    <string name="browser_unavailable">沒有可用於開啟此網頁的瀏覽器。</string>
+    <string name="bmi_logo_description">BMI 圖示。長按可查看關於 BMI 和 BMI 維基。</string>
+</resources>

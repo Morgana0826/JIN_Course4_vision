@@ -1,0 +1,18 @@
+// 中文 · 这些仓库负责查找 Gradle 插件。应用依赖使用下方 dependencyResolutionManagement 中的仓库。
+// EN · These repositories resolve Gradle plugins. Application libraries use the repositories in dependencyResolutionManagement below.
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "BMI-MVP"
+include ':app'

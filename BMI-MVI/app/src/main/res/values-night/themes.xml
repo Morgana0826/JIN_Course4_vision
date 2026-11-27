@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.MyBMICanlandar" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/blue_dark</item>
+        <item name="android:navigationBarColor">@color/navy</item>
+        <item name="android:colorAccent">@color/blue</item>
+    </style>
+</resources>
